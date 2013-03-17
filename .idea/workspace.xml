@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ddae75d2-407d-4442-8825-01e0a65cf65f" name="Default" comment="" />
+    <ignored path="ipvenger_j.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/../ipvenger-drupal-remote/sites/all/modules/ipvenger/ipvenger_reports/css/ipvenger_reports.css" changelist="ddae75d2-407d-4442-8825-01e0a65cf65f" time="1363552994997" ignored="false" />
+    <file path="/ipvenger_reports.css" changelist="ddae75d2-407d-4442-8825-01e0a65cf65f" time="1363231244993" ignored="false" />
+    <file path="$PROJECT_DIR$/../ipvenger-drupal-remote/sites/all/modules/ipvenger/ipvenger_reports/ipvenger_reports.admin.inc" changelist="ddae75d2-407d-4442-8825-01e0a65cf65f" time="1363557531163" ignored="false" />
+    <file path="/a.dummy" changelist="ddae75d2-407d-4442-8825-01e0a65cf65f" time="1363562430921" ignored="false" />
+    <file path="/ipv_db_utils.php" changelist="ddae75d2-407d-4442-8825-01e0a65cf65f" time="1363358161754" ignored="false" />
+    <file path="$PROJECT_DIR$/../ipvenger-drupal-remote/sites/all/modules/ipvenger/ipvenger.module" changelist="ddae75d2-407d-4442-8825-01e0a65cf65f" time="1363554320753" ignored="false" />
+    <file path="/ipvenger.module" changelist="ddae75d2-407d-4442-8825-01e0a65cf65f" time="1363554320151" ignored="false" />
+    <file path="$PROJECT_DIR$/../ipvenger-drupal-remote/sites/all/modules/ipvenger/ipvenger.admin.inc" changelist="ddae75d2-407d-4442-8825-01e0a65cf65f" time="1363556678213" ignored="false" />
+    <file path="/ipvenger_reports.admin.inc" changelist="ddae75d2-407d-4442-8825-01e0a65cf65f" time="1363556932363" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ipvenger_j" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ipv_validate_key.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_validate_key.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="4" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ipv_general.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com_ipvenger/dashboard-pages/ipv_general.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="100" column="43" selection-start="2406" selection-end="2406" vertical-scroll-proportion="-1.58">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ipvenger.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com_ipvenger/ipvenger.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="71" selection-start="3619" selection-end="3619" vertical-scroll-proportion="-11.18">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="make" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/make">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_prep_ajax.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_manage_msgs.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_manage_exceptions.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_lookup_ip.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_is_key_valid.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_get_request_data.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_get_latest_blocks.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_get_country_data.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_get_category_data.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_get_avg_ipq_data.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_gen_request_table.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/TODO" />
+        <option value="$PROJECT_DIR$/com_ipvenger/installer.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/cms-includes/ipv_db_utils.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/dashboard-pages/ipv_general.php" />
+        <option value="$PROJECT_DIR$/com_ipvenger/ipvenger.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="671" />
+    <option name="y" value="163" />
+    <option name="width" value="1398" />
+    <option name="height" value="878" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipvenger_j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipvenger_j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipvenger_j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipvenger_j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipvenger_j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plg_ipvenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipvenger_j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipvenger_j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="package" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipvenger_j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipvenger_j" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_ipvenger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="17b6bcab-a6f6-4431-b8f3-c2371d19c37d">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="3e0aba2d-25f4-41c6-8714-d3c0daa2fb84">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="7ecc8a7f-a0ca-4496-aa5f-13d239b8260f">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="8df85a4c-7332-432e-94db-02ede7be3db0">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="a1fb7595-0b8a-47fc-a456-6e28300655a3">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="a8c99cdf-57f7-4a65-bfb1-666c6e479b0f">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="ac752a56-ed89-4b7f-8546-c1ab324ab33c">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="ba00cb36-9464-4147-918f-04b7a575b339">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="d37993fe-c8d1-475c-b5d3-a22f5957a73d">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="ed6cfbbd-d899-4e41-8aa9-8de9261390a8">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="f444c459-af13-45bf-afde-99dcacc1fd67">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/com_ipvenger/jquery/images" />
+      <recent name="$PROJECT_DIR$/com_ipvenger/jquery" />
+      <recent name="$PROJECT_DIR$/com_ipvenger/cms-includes" />
+      <recent name="$PROJECT_DIR$/com_ipvenger/ajax-services" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ddae75d2-407d-4442-8825-01e0a65cf65f" name="Default" comment="" />
+      <created>1363132244645</created>
+      <updated>1363132244645</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="671" y="163" width="1398" height="878" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32849604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2610947" sideWeight="0.15963061" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2610947" sideWeight="0.5026385" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/com_ipvenger/ipvenger.php</url>
+          <line>97</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plg_ipvenger/ipvenger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="359" selection-end="373" vertical-scroll-proportion="-10.375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/dashboard-pages/ipv_ipcc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="24" selection-start="836" selection-end="841" vertical-scroll-proportion="-2.8" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/installer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="52" selection-start="1096" selection-end="1096" vertical-scroll-proportion="-4.5" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_lookup_ip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="0" selection-start="3957" selection-end="3957" vertical-scroll-proportion="-15.125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_update_appeals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="40" selection-start="908" selection-end="935" vertical-scroll-proportion="-11.666667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/cms-includes/ipv_db_utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="64" selection-start="3685" selection-end="3685" vertical-scroll-proportion="-5.1">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_update_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="42" selection-start="1259" selection-end="1259" vertical-scroll-proportion="-9.791667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/core-includes/ipv_config_utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="42" selection-start="4467" selection-end="4467" vertical-scroll-proportion="-6.375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/core-includes/ipv_validate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="22" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.31408775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/core-includes/ipv_process_appeal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="52" selection-start="264" selection-end="264" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/cms-includes/ipv_block_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="70" selection-start="2337" selection-end="2337" vertical-scroll-proportion="0.43326038">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/ajax-services/ipv_validate_key.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/dashboard-pages/ipv_general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="43" selection-start="2406" selection-end="2406" vertical-scroll-proportion="-1.58">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_ipvenger/ipvenger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="71" selection-start="3619" selection-end="3619" vertical-scroll-proportion="-11.18">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

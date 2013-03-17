@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="component">
+	<name>IPVenger</name>
+	<author>Norse Corporation</author>
+	<creationDate>February 28, 2012</creationDate>
+	<copyright>Norse Corporation</copyright>
+	<license>GNU General Public License</license>
+	<authorUrl>http://ipvenger.com</authorUrl>
+	<version>1.0</version>
+	<description>IPVenger protects your Joomla! installation by blocking access from IP Addresses associated with high-risk behavior.</description>
+	<administration>
+		<menu link="option=com_ipvenger">IPVenger</menu>
+		<submenu>
+			<menu link="option=com_ipvenger" 
+					view="ipv_general">com_ipvenger_general</menu>
+			<menu link="option=com_ipvenger&amp;view=ipv_analytics" 
+					view="ipv_analytics">com_ipvenger_analytics</menu>
+			<menu link="option=com_ipvenger&amp;view=ipv_ipcc" 
+					view="ipv_ipcc">com_ipvenger_ipcc</menu>
+			<menu link="option=com_ipvenger&amp;view=ipv_advanced" 
+					view="ipv_advanced">com_ipvenger_advanced</menu>
+		</submenu>
+		<files>
+			<filename plugin="ipvenger">ipvenger.php</filename>
+			<filename>index.html</filename>
+			<filename>installer.php</filename>
+			<folder>css</folder>
+			<folder>jquery</folder>
+			<folder>images</folder>
+			<folder>securimage</folder>
+			<folder>cms-includes</folder>
+			<folder>core-includes</folder>
+			<folder>dashboard-pages</folder>
+			<folder>ajax-services</folder>
+			<folder>help</folder>
+		</files>
+		<languages folder="language">
+			<language tag="en-GB">en-GB/en-GB.com_ipvenger.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_ipvenger.ini</language>
+		</languages>
+	</administration>
+	<scriptfile>installer.php</scriptfile>
+</extension>

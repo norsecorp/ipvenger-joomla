@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="2.5">
+	<name>IPVenger</name>
+	<author>Norse Corporation</author>
+	<creationDate>February 28, 2012</creationDate>
+	<packagename>ipvenger</packagename>
+	<packager>Norse Corporation</packager>
+	<copyright>Norse Corporation</copyright>
+	<license>GNU General Public License</license>
+	<authorUrl>http://ipvenger.com</authorUrl>
+	<version>1.0</version>
+	<description>IPVenger protects your Joomla! installation by blocking access from IP Addresses associated with high-risk behavior.</description>
+	<files folder="packages">
+		<file type="plugin" group="system" id="ipvenger">plg_ipvenger.zip</file>
+		<file type="component" id="com_ipvenger">com_ipvenger.zip</file>
+	</files>
+</extension>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+	<name>IPVenger</name>
+	<author>Norse Corporation</author>
+	<creationDate>February 28, 2012</creationDate>
+	<copyright>Norse Corporation</copyright>
+	<license>GNU General Public License</license>
+	<authorUrl>http://ipvenger.com</authorUrl>
+	<version>1.0</version>
+	<description>IPVenger plugin to block high-risk IPs.  The IPVenger Componentmust be installed for this plugin to function.</description>
+	<files>
+		<filename plugin="ipvenger">ipvenger.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

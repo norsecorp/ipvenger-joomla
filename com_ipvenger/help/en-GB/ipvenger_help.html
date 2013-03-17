@@ -1,0 +1,45 @@
+<?php defined('_JEXEC') or die('Restricted access');?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en_GB" xml:lang="en_GB">
+
+<head>
+<title>IPVenger Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript">
+	function ipv_load( target ) {
+		window.open( target, 'external' );
+		close();
+	}
+</script>
+
+<link rel=stylesheet href="../../css/style.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+<div id="ipv">
+	<div id="ipv-help-logo">
+		<img src="ipvenger_logo.png">
+	</div>
+	<div id="ipv-help-button-container">
+		<div id="ipv-help-support-container">
+			<a class="ipv-link-button" 
+				onclick='ipv_load( "http://ipvengersupport.zendesk.com/home" )'>
+				Visit our support page
+			</a>
+		</div>
+		<div id="ipv-help-website-container">
+			<a class="ipv-link-button"
+				onclick='ipv_load( "http://ipvenger.com/home" )'>
+				Visit the IPVenger website
+			</a>
+		</div>
+	</div>
+</div>
+</body>
+
+</html>
