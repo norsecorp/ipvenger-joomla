@@ -3,3 +3,4 @@
 *.zip
 /ipvenger.zip
 /package/packages/com_ipvener.zip
+/package/.DS_Store
