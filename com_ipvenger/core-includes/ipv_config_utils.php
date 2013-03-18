@@ -700,7 +700,7 @@ function ipv_plugin_is_active() {
 		' SELECT plugin_is_active FROM ' . IPV_GLOBAL_SETTINGS .
 		' WHERE configuration_id = 1 ' );
 
-	if ( ! $q_result ) { 
+	if ( ! $q_result ) {
 		ipv_db_cleanup();
 		return false;
 	}
@@ -708,6 +708,8 @@ function ipv_plugin_is_active() {
 		$row = ipv_db_fetch_assoc( $q_result );
 		ipv_db_cleanup();
 	}
+
+    ipv_db_purge_check();
 
 	return $row['plugin_is_active'];
 	

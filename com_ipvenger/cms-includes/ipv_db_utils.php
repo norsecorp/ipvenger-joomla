@@ -131,10 +131,15 @@ function ipv_db_count_tables() {
 
 function ipv_db_purge_check() {
 
-    $result = ipv_db_fetch_row("SELECT DATEDIFF(NOW(), last_data_purge) FROM " . IPV_GLOBAL_SETTINGS);
+    $result = ipv_db_query("SELECT DATEDIFF(NOW(), last_data_purge) AS PURGE_TIME FROM " . IPV_GLOBAL_SETTINGS);
 
-    if ( $result >= 1 ) {
-        ipv_db_purge_expired();
+    if ( $result  ) {
+        $row = ipv_db_fetch_assoc( $result );
+        $q_result = $row['PURGE_TIME'];
+        if ($q_result >= 1) {
+            ipv_db_purge_expired();
+        }
+
     }
 
 }
