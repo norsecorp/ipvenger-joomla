@@ -5,7 +5,9 @@
 #wpadminbar {
 	z-index: 1000 !important;	/* let ui-dialog popup be in front */
 }
-
+#ipv {
+	font-size: 12px;
+}
 #ipv textarea {
     resize: none;
     font-size: 1em;
@@ -95,6 +97,18 @@
 	padding: 12px;
 }
 
+.ipcc-filter-label {
+	float: left;
+	font-size:125%;
+	margin: 25px 0 0 10px;
+}
+.filter-item {
+	margin: 10px 10px 0;
+	float: left;
+}
+.filter-item input, .filter-item select {
+	margin-top: 2px;
+}
 .ipv .ipv-secondary,
 #ipv .ipv-secondary { 
 	border-width: 0px;
@@ -142,7 +156,7 @@
 }
 
 #ipv .ipvmain {
-	margin:16px 0 0 5px;
+	margin:16px 0 0 0;
 	width:1013px;
 	overflow:hidden;
 	clear:both;
@@ -191,7 +205,6 @@
 	vertical-align:text-top
 	z-index:3000 !important;
 }
-
 #ipv .ipv-title-cluetip .ui-widget-header, 
 .ipv-dynamic-cluetip .ui-widget-header {
 	background: none !important;
@@ -338,7 +351,7 @@
 #disp-legend-visits {
 	font-size:140%;
 	font-weight:bold;
-	padding-bottom:20px;
+	padding-bottom:16px;
 }
 
 #ipv .disp-legend-count {
@@ -739,6 +752,7 @@
 /* force chrome to respect our authority */
 #ipv .country-bl-action-wrapper select {
 	-webkit-appearance:none;
+	font-size: 12px;
 }
 
 
@@ -751,6 +765,7 @@
 	border:none;
 	height:auto;
 	cursor:pointer;
+	font-size: 11px;
 }
 
 #ipv .ip-ticker {
@@ -956,7 +971,7 @@
 .ipv .widefat,
 #ipv .widefat {
 	border-radius: 0 !important;
-	border-color: #DEDEDE;
+	border: 1px solid #DEDEDE;
 	border-spacing: 0;
 	border-style: solid;
 	background: none #FFF !important;
@@ -992,9 +1007,10 @@
 
 .ipv .widefat td,
 #ipv .widefat td {
-	padding: 9px 7px 0;
+	padding: 6px 7px 3px;
 	border: none !important;
 	border-left: 1px solid #FFF !important;
+	font-size: 11px;
 }
 
 .ipv .widefat a,
@@ -1023,7 +1039,7 @@
 
 #ipq-threshold-slide-container {
 	float:left;
-	width:455px;
+	width:460px;
 	padding:5px 0 0 20px;
 }
 
@@ -1097,7 +1113,7 @@
 #ipq-threshold-text {
 	float:left;
 	background:#F0F9FE;
-	width:433px;
+	width:438px;
 	height:210px;
 	padding:28px 40px 0 20px;
 }
@@ -1106,6 +1122,7 @@
 	width:452px;
 	padding: 30px 0 30px 20px;
 	float:left;
+	font-size: 12px !important;
 }
 
 #ipv .blacklist-control-container h3 { 
@@ -1126,7 +1143,7 @@
 }
 
 #ipv .blacklist-control-container .mask-input-container button { 
-	margin-left:2px;
+	margin: -2px 0 0 2px;
 	width:75px;
 	height:25px;
 	padding-bottom:5px;
@@ -1134,10 +1151,11 @@
 
 #ipv .blacklist-control-container .mask-input { 
 	width:250px;
-	height:25px;
+	height:20px;
 	margin:0;
-	padding-top:4px;
+	padding: 4px 0 0 5px;
 	border-radius:0px;
+	font-size: 12px;
 }
 
 #ipv .blacklist-control-container .ui-combobox { 
@@ -1153,6 +1171,8 @@
 	height:135px !important;
 	margin-bottom:10px;
 	background:none;
+	padding: 5px;
+	font-size: 12px;
 }
 
 #ipv-blacklist-map {
@@ -1164,7 +1184,7 @@
 }
 
 #ipv-reporting-text {
-	padding:20px;
+	padding:20px 20px 50px;
 }
 
 #ipv-reporting-text button {

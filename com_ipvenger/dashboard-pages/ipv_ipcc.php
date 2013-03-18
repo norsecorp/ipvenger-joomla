@@ -305,26 +305,26 @@ EOQ;
 	<div class="frame-header">
         <img src= "${GLOBALS['ipv_image_url']}/hdr-text/ips_blocked.png">
 	</div>
-	<div>
-		<div style="float:left;font-size:125%;margin:30px 10px 0 0">	
+	<div class="ipcc-filter-row">
+		<div class="ipcc-filter-label">	
 			Filter results by:
 		</div>
 		<div class="filter-container">
-            <div class="filter-item" style="float:left;margin:10px;">
+            <div class="filter-item">
                 <div>Start Date</div>
                 <input id="ipv_start_date" onchange="ipv_reload_table(false)"
                     type="text" style="width:100px"
                     value=$thirty_days_ago
                 >
             </div>
-            <div class="filter-item" style="float:left;margin:10px;">
+            <div class="filter-item">
                 <div>End Date</div>
                 <input id="ipv_end_date" onchange="ipv_reload_table(false)"
                     type="text" style="width:100px"
                     value=$today
                 >
             </div>
-            <div class="filter-item" style="float:left;margin:10px;">
+            <div class="filter-item">
                 <div>Country</div>
                 <select id="ipv_country" onchange="ipv_reload_table(false)"
                     style="width:100px">
@@ -332,7 +332,7 @@ EOQ;
                     $avail_country_options
                 </select>
             </div>
-            <div class="filter-item" style="float:left;margin:10px;">
+            <div class="filter-item">
                 <div>Disposition</div>
                 <select id="ipv_disposition" onchange="ipv_reload_table(false)"
                     style="width:100px">
@@ -340,7 +340,7 @@ EOQ;
                     $avail_disp_options
                 </select>
             </div>
-            <div class="filter-item" style="float:left;margin:10px;">
+            <div class="filter-item">
                 <div>Category</div>
                 <select id="ipv_category" onchange="ipv_reload_table(false)"
                     style="width:100px">
@@ -349,7 +349,7 @@ EOQ;
                 </select>
             </div>
         </div>
-		<div style="float:left;margin:32px 0 10px 10px;">
+		<div style="float:left;margin:25px 0 10px 10px;">
 			<input type="checkbox" id="ipv_appeal_only" 
 				onchange="ipv_reload_table(false)" 
 				$appeal_checked
@@ -358,7 +358,7 @@ EOQ;
 		</div>
 
 		<input type="button" class="ipv-secondary" 
-			style="float:right;margin:25px 0 0 0px"
+			style="float:right;margin:16px 10px 0 0px"
 			value="Clear Filters" onclick="ipv_reset_filters()"	/>
 	</div>
 

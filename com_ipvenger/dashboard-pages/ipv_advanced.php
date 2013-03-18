@@ -577,25 +577,25 @@ defined('_JEXEC') or die;
 
 	<div id="ipq-threshold-divider"
 		style="background: 
-			url( '${GLOBALS['ipv_image_url']}/ipq-threshold-divider.png' )"
+			url( '${GLOBALS['ipv_image_url']}/ipq-threshold-divider.png' )">
 		&nbsp;
 	</div>
 
 	<div id="ipq-threshold-text">
 		<h2>IPQ Threat Threshold</h2>
-		You have chosen 
+		<p>You have chosen 
 			<b>$long_name</b>.  Your security has been set to 
-			<b>$ipq_desc</b>.<p>
+			<b>$ipq_desc</b>.</p>
 
-		You may change the IPQ threshold using the slider,
+		<p>You may change the IPQ threshold using the slider,
 		but it is important that you <a 
 			class="ipv-title-cluetip" style="text-align:bottom"
-			title="$rec_set_warning">read this first</a>.<p>
+			title="$rec_set_warning">read this first</a>.</p>
 		
-		To change the website type go to <a href="$general_settings_url">
+		<p>To change the website type go to <a href="$general_settings_url">
 
-		Security Settings</a> and select the site type from the pulldown menu.
-		</div>
+		Security Settings</a> and select the site type from the pulldown menu.</p>
+		
 
 	</div>
 
