@@ -69,7 +69,14 @@ $GLOBALS['ipv_dashboard_home']  = $base_url . 'dashboard-pages';
 $GLOBALS['ipv_ajax_home']       = $base_url . 'ajax-services';
 
 $d =& JFactory::getDocument();
-JHtml::_('bootstrap.framework');
+
+$jversion = new JVersion;
+$current_version = $jversion->getShortVersion();
+if (version_compare($current_version, '3.0.0') >= 0)
+{
+    JHtml::_('bootstrap.framework');
+}
+
 
 $d->addStyleSheet( $GLOBALS['ipv_css_home'] . '/style.css' );
 $d->addStyleSheet( $GLOBALS['ipv_jquery_home'] . '/jquery-ui-1.8.19.custom.css' );
