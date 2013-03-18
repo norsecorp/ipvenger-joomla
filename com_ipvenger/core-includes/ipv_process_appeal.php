@@ -1,8 +1,5 @@
 <?php
 
-// no direct access
-defined('_JEXEC') or die;
-
 /**
  *
  *	ipv_process_appeal.php:  validate appeal request captcha and email
@@ -20,10 +17,10 @@ defined('_JEXEC') or die;
 
 	define( 'IPV_IN_AJAX', true );
 
-	if ( ! isset( 
-		$_POST['captcha_response'], 
-		$_POST['request_id'], 
-		$_POST['email'] ) ) 
+	if ( ! isset(
+		$_POST['captcha_response'],
+		$_POST['request_id'],
+		$_POST['email'] ) )
 	{
 		die( 'Unauthorized' );
 	}
@@ -43,6 +40,9 @@ defined('_JEXEC') or die;
 	require_once( '../cms-includes/ipv_cms_workarounds.php' );
 	require_once( '../cms-includes/ipv_session.php' );
 
+    // no direct access
+    defined('_JEXEC') or die;
+
 	$return_to = ipv_session_get( 'ipv_return_to' );
 
 	/* validate email format and DNS domain record */
@@ -55,21 +55,21 @@ defined('_JEXEC') or die;
 
 	$captcha_valid = false;
 
-	if ( ipv_session_get( 'ipv_captcha_text' ) == $captcha_response ) 
+	if ( ipv_session_get( 'ipv_captcha_text' ) == $captcha_response )
 	{
 		$captcha_valid = true;
 	}
 
 	/* if email and captcha pass, insert the appeal and send notify email */
-	
+
 	if ( $email_valid && $captcha_valid ) {
 
 		// allow access for the remainder of this user session
 		ipv_session_set( 'ipv_status', 'allow' );
 		ipv_session_set( 'ipv_appeal', 'appeal' );
 		ipv_session_set( 'ipv_create_time', time() );
-	
-		require_once( dirname( __FILE__ ) .  
+
+		require_once( dirname( __FILE__ ) .
 			'/../cms-includes/ipv_db_utils.php' );
 
 		require_once( 'ipv_validate.php' );
@@ -79,7 +79,7 @@ defined('_JEXEC') or die;
 
 		$request_id = intval( $request_id );
 
-		$q_str = 'SELECT appeal_id FROM '  . IPV_APPEAL . 
+		$q_str = 'SELECT appeal_id FROM '  . IPV_APPEAL .
 			" WHERE request_id=$request_id";
 
 		$q_result = ipv_db_query( $q_str );
@@ -90,7 +90,7 @@ EOR;
 
 		if ( ( $q_result ) && ( $row = ipv_db_fetch_assoc( $q_result ) ) )
 		{
-			echo 'Your appeal (' . $row['appeal_id'] . 
+			echo 'Your appeal (' . $row['appeal_id'] .
 				') is on file for review by the site administrator.';
 		}
 		else {
@@ -111,7 +111,7 @@ EOR;
 			$admin_address  = ipv_get_admin_email();
 			$ipcc_url 		= ipv_get_ipcc_url();
 
-			$query = 'SELECT ipv_int_disp_reason as reason, ' . 
+			$query = 'SELECT ipv_int_disp_reason as reason, ' .
 						'ipv_int_factor_name as factor, ' .
 						'ipv_int_category_name as category ' .
 					 'FROM ' . IPV_REQUEST_DETAIL .
@@ -122,23 +122,23 @@ EOR;
 			$row = ipv_db_fetch_assoc( $q_result );
 
 			$reason = $row['reason'];
-		
+
 			ipv_db_cleanup();
 
 			$cat_str = '';
 
 			if ( $reason == 'IPQ Score' ) {
-				$category = $row['factor'];  
-				if ( $category == 'ipviking_category_factor' ) 
+				$category = $row['factor'];
+				if ( $category == 'ipviking_category_factor' )
 					$category = $row['category'];
 				$cat_str = "Category:		$category\n";
 			}
-				
+
 			$message = <<<EOM
 <html><body>
-You are receiving this email because a visitor was blocked from accessing 
+You are receiving this email because a visitor was blocked from accessing
 your website by IPVenger and has appealed this action. The visitor supplied
-a valid email address and CAPTCHA challenge response and has been granted 
+a valid email address and CAPTCHA challenge response and has been granted
 temporary access to your site.<p>
 
 <strong>Details:</strong>
@@ -152,19 +152,19 @@ ${cat_str}Visitor Email:	<a href="mailto:$email">$email</a>
 This user's access will automatically expire within 48 hours and they
 may appeal again at that time.<p>
 
-If you choose to take action, you can whitelist this visitor's IP address, 
-or blacklist it and prevent further appeals from the 
+If you choose to take action, you can whitelist this visitor's IP address,
+or blacklist it and prevent further appeals from the
 <a href="$ipcc_url">IPVenger IP Control Panel.</a>
 <p>
 
 </body></html>
 EOM;
 
-			mail( $admin_address, 
-			  'IPVenger Appeal Notification', 
+			mail( $admin_address,
+			  'IPVenger Appeal Notification',
 			  $message,
 			  'Content-type: text/html' );
-		
+
 		}
 	}
 	else {
